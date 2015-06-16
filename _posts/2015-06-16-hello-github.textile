@@ -7,4 +7,4 @@ h1. {{ page.title }}
 
 p(meta). 18 Oct 2008 - Stone 
 
-测试一下github ｂｌｏｇ　如果好用　可以长久使用
+测试一下github blog 如果好用　可以长久使用
