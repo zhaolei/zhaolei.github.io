@@ -7,4 +7,15 @@ h1. {{ page.title }}
 
 p(meta). 18 Oct 2008 - Stone 
 
+### Hello World
+测试
+
+```
+$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+```
+
+### 这是题
 测试一下github blog 如果好用　可以长久使用
+这里是正文
