@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+id: zhaolei-About
 ---
 
 ### 关于我

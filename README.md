@@ -1,6 +1,6 @@
 # About
 
-You can visit [here](http://gaohaoyang.github.io) to see this blog.
+You can visit [here](http://zhaolei.github.io) to see this blog.
 
 ---
 
