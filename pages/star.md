@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Star Github 
+title: Star
 permalink: /star/
 id: zhaolei-star
 ---
