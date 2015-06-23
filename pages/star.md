@@ -11,6 +11,8 @@ id: zhaolei-star
 * scikit-learn机器学习库 [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
 * scikit-learn-book [https://github.com/gmonce/scikit-learn-book](https://github.com/gmonce/scikit-learn-book)
 
-
 ---
 
+###  Java 库 
+
+* mahout算法hadoop库 [https://github.com/apache/mahout](https://github.com/apache/mahout)

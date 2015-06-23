@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 id: zhaolei-About
 ---
 
-### 关于我
-
->  以后慢慢补充   
+>  爱好：
+>  工作：
+>  现居：   
 
 
 ---
