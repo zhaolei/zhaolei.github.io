@@ -5,9 +5,9 @@ permalink: /about/
 id: zhaolei-About
 ---
 
->  爱好：
->  工作：
->  现居：   
+>  *爱好：
+>  *工作：
+>  *现居：   
 
 
 ---
@@ -20,6 +20,6 @@ id: zhaolei-About
 
 #### 友情链接
 
-
+* [blog.i1602.com](http://blog.i1602.com)
 ---
 
