@@ -38,13 +38,13 @@ dtype('int32')
 ---
 
 读取自定义图片
-
+<pre>
 <code>
 >>> import scipy.misc
 >>> lenda = cipy.misc.imread('lenda.png')
 >>> scipy.misc.imshow(lenda)
 </code>
-
+</pre>
 
 
 
