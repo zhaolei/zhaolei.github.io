@@ -5,9 +5,9 @@ permalink: /about/
 id: zhaolei-About
 ---
 
->  *爱好：
->  *工作：
->  *现居：   
+  *爱好：
+  *工作：
+  *现居：   
 
 
 ---
