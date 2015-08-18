@@ -13,6 +13,7 @@ Numpy.meshgrid　文档地址　[http://docs.scipy.org/doc/numpy/reference/gener
 
 meshgrid计算两个矩阵的XX 写XX是因为我不知道这个在矩阵里叫什么计算
 两个n,m矩阵 meshgrid 计算完成后 输出两个矩阵 N M
+
 N为:
 n转为1行 然后重复 m列次行
 
