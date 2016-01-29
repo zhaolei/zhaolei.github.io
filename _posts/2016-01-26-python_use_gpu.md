@@ -89,12 +89,32 @@ Used the cpu
 ---
 
 mxnet gpu使用方法
+>mxnet如果要使用gpu则需要在编译的时候就要支持cuda;
 
+修改mxnet config.mk
+
+改动3个地方 , 代码如下
 <pre>
 <code>
->>> import scipy.misc
-
+USE_CUDA = 1
+USE_CUDA_PATH=/usr/local/cuda
+USE_BLAS = atlas
 </code>
+</pre>
+USE_BLAS = atlas 可根据情况如果安装登录openblas则改成openblas
+
+然后make -j4 编译完成 即可;
+
+使用方法如下:
+<pre>
+<code>
+>>> import mxnet as mx
+>>> a = mx.nd.empty((2, 3), mx.gpu()) # create a 2-by-3 matrix on gpu 0
+>>> b = mx.nd.empty((2, 3), mx.gpu()) # create a 2-by-3 matrix on gpu 0
+>>> c = a+b
+</code>
+</pre>
+如果没有 mx.gpu() 则默认使用cpu()
 
 
 
