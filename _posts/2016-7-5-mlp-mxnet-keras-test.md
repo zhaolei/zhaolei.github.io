@@ -9,5 +9,8 @@ categories: mxnet keras mlp
 * 将测试数据保存为csv
 ---
 
+### 使用mxnet测试mlp
+
+
 
 
