@@ -7,4 +7,3 @@ categories: mxnet keras mlp
 * mxnet
 ---
 
-  **{赵磊}(stone)完成**
