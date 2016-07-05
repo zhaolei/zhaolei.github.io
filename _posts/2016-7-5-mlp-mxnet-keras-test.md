@@ -11,6 +11,10 @@ categories: mxnet keras mlp
 
 ### 使用mxnet测试mlp
 
+* 构造两层隐藏单元
+* train开始
+
+
 
 
 
