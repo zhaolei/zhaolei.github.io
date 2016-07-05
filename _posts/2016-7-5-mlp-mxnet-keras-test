@@ -1,7 +1,7 @@
 ---
-title: 用mxnet和keras学习mlp 
-tags:  mxnet,mlp
-grammar_cjkRuby: true
+layout: post
+title: 用mxnet和keras学习mlp
+categories: mxnet keras mlp
 ---
 
 * mxnet
