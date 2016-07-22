@@ -21,6 +21,9 @@ categories: Python 股票
 * 每日交易前完成
 * 接受context,data作为输入
 
+### sid 函数
+* 接受
+
 ---
 
 
