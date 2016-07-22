@@ -19,6 +19,7 @@ categories: Python 股票
 
 ### before_trading_start 函数
 * 每日交易前完成
+* 接受context,data作为输入
 
 ---
 
