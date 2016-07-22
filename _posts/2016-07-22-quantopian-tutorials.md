@@ -18,7 +18,7 @@ categories: Python 股票
 * 
 
 ### before_trading_start 函数
-* 每日交易前完成
+* 每日交易前完成data.current(sid(24), 'price')
 * 接受context,data作为输入
 
 ### sid 函数
@@ -29,6 +29,12 @@ categories: Python 股票
 
     order_target_percent(sid(24), 0.50)
     order_target_percent(sid(24), -0.50)
+### data.current 函数
+* 打印当前价格
+
+    data.current([sid(24), sid(8554)], ['low', 'high'])
+    data.current([sid(24), sid(8554)], 'price')
+    
 
 ---
 
