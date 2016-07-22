@@ -28,6 +28,7 @@ categories: Python 股票
 * 下单
 
     order_target_percent(sid(24), 0.50)
+    order_target_percent(sid(24), -0.50)
 
 ---
 
