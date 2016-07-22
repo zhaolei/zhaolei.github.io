@@ -24,6 +24,11 @@ categories: Python 股票
 ### sid 函数
 * 接受
 
+### order_target_percent 函数
+* 下单
+
+    order_target_percent(sid(24), 0.50)
+
 ---
 
 
