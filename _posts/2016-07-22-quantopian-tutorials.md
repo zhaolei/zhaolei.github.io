@@ -35,6 +35,11 @@ categories: Python 股票
     data.current([sid(24), sid(8554)], ['low', 'high'])
     data.current([sid(24), sid(8554)], 'price')
     
+### data.can_trade 函数
+
+* 检查是否可以交易
+
+    data.can_trade(sid(24))
 
 ---
 
