@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: Me
 permalink: /about/
 id: zhaolei-About
 ---
