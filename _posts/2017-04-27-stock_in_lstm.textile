@@ -1,5 +1,4 @@
 ---
-layout: post
 title: lstm在股票上的一个思路 
 categories: rnn tensorflow  
 ---
