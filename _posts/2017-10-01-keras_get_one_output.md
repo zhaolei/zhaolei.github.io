@@ -5,11 +5,12 @@ categories: python
 ---
 
 
-### keras提供很多训练好的模型 vgg16,vgg19,InceptionV3等如何获取这些模型的某一层的输出
+>  keras提供很多训练好的模型 vgg16,vgg19,InceptionV3等如何获取这些模型的某一层的输出
+> 这些模型每个模型都有超过10个层，如果想检查中间的某层输出如何操作
 
-* 这些模型每个模型都有超过10个层，如果想检查中间的某层输出如何操作
+--- 
 
-### 加载模型
+### 1. 加载模型
 
 * 以vgg16为例
 
@@ -24,7 +25,9 @@ print(model.layers)
 * 加载完可以看到 输出一个list每一项为一layer
 
 
-### 定义输出中间层layer模型
+---
+
+### 2. 定义输出中间层layer模型
 
 * 下面代码定义个输出第3层的模型
 
@@ -37,7 +40,9 @@ layer_model = Model(inputs=model.input, outputs=model.layers[3].output)
 
 * 定义好的layer_model就是输出第3层
 
-### 完整的测试代码
+---
+
+### 3. 完整的测试代码
 
 ```python
 from keras.applications.vgg16 import VGG16
