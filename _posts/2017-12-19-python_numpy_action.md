@@ -24,11 +24,8 @@ categories: Python numpy
 ```python
 Va = numpy.arange(10)
 Ma = Va.reshape(5,2)
-```
 
-
-```python
-Ma
+print(Ma)
 ```
 
 
@@ -47,11 +44,8 @@ Ma
 
 ```python
 newMa = np.hstack((Ma,Ma))
-```
 
-
-```python
-newMa
+print(newMa)
 ```
 
 
@@ -70,11 +64,8 @@ newMa
 
 ```python
 newMa = np.vstack((Ma,Ma))
-```
 
-
-```python
-newMa
+print(newMa)
 ```
 
 
@@ -98,11 +89,8 @@ newMa
 
 ```python
 tmpMa = np.max(Ma,axis=1)
-```
 
-
-```python
-tmpMa
+print(tmpMa)
 ```
 
 
@@ -115,11 +103,8 @@ tmpMa
 
 ```python
 tmpMa = np.max(Ma,axis=0)
-```
 
-
-```python
-tmpMa
+print(tmpMa)
 ```
 
 
@@ -132,11 +117,8 @@ tmpMa
 
 ```python
 tmpMa = np.max(Ma,axis=1,keepdims=True)
-```
 
-
-```python
-tmpMa
+print(tmpMa)
 ```
 
 
@@ -153,11 +135,8 @@ tmpMa
 
 ```python
 tmpMa = np.max(Ma,axis=0,keepdims=True)
-```
 
-
-```python
-tmpMa
+print(tmpMa)
 ```
 
 
@@ -226,11 +205,7 @@ np.sum(Ma,axis=1,keepdims=True)
 
 ```python
 newMa = np.hstack((Ma,Ma))
-```
-
-
-```python
-newMa
+print(newMa)
 ```
 
 
@@ -293,14 +268,6 @@ Ma[::-1]
            [2, 3],
            [0, 1]])
 
-
-
-
-
-
-```python
-
-```
 
 
 
