@@ -31,5 +31,10 @@ categories: pix, apm, omnibusf4
 1. 以后更新固件无需刷DFU和bootloader 
 
 >
-链接: https://pan.baidu.com/s/1rSA6LkGrbAvoKChsSVvXQw 提取码: 7wz7 复制这段内容后打开百度网盘手机App，操作更方便哦
+链接: https://pan.baidu.com/s/1rSA6LkGrbAvoKChsSVvXQw 提取码: 7wz7 复制这段内容后打开百度网盘手机App，操作更方便哦 
+
+参考链接
+> https://docs.px4.io/v1.9.0/en/config/firmware.html
+> https://github.com/PX4/px4_user_guide/blob/master/en/flight_controller/omnibus_f4_sd.md
+> https://docs.px4.cc/zh/flight_controller/omnibus_f4_sd.html
 
