@@ -1,9 +1,8 @@
 ---
 layout: post
-title: omnibusf4 刷pix ardupilot固件
+title: omnibusf4刷pix ardupilot固件
 categories: pix, apm, omnibusf4
 ---
-
 
 # omnibusf4 刷pix ardupilot固件
 
