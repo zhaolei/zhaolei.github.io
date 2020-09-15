@@ -4,7 +4,6 @@ title: 树莓派安装ros+mavros
 categories: 树莓派, raspberry pi, ros, mavros
 ---
 
-# 树莓派安装ros+mavros
 
 ## 经验建议
 
@@ -20,15 +19,39 @@ categories: 树莓派, raspberry pi, ros, mavros
 ```bash
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
-3. sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
-4. sudo apt update
-5. 根据需要选一个，不需要界面选最后一个：sudo apt install ros-noetic-desktop-full ，sudo apt install ros-noetic-desktop， sudo apt install ros-noetic-ros-base 
-6. 安装完成 设环境变量就可以用:  source /opt/ros/noetic/setup.bash ,
-7. 测试一下: roscore 看是否可以使用
+3. 
+```bash
+sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+```
+4. 
+```bash
+sudo apt update
+```
+5. 根据需要选一个，不需要界面选最后一个：
+```bash
+sudo apt install ros-noetic-desktop-full 
+sudo apt install ros-noetic-desktop
+sudo apt install ros-noetic-ros-base 
+```
+6. 安装完成 设环境变量就可以用:  
+```bash
+source /opt/ros/noetic/setup.bash 
+```
+7. 测试一下，看是否可以使用
+```bash
+roscore
+```
 
 ## 安装mavros + mavlink
-1. 二进制安装: sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras ros‐noetic‐control‐toolbox
-2. 安装完 : roslaunch mavros px4.launch  如果可以打开表示安装完成
+1. 二进制安装: 
+```bash
+sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras ros‐noetic‐control‐toolbox
+```
+2. 安装完 ， 如果可以打开表示安装完成
+```bash
+roslaunch mavros px4.launch  
+```
+
 
 
 参考链接
